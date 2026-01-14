@@ -1,5 +1,5 @@
-name: "💬 General Feedback / Questions"
-description: Share usage experience, simple ideas, or ask questions about features
+name: "💬 General Feedback (中文)"
+description: 分享使用感受、简单想法，或就某个功能提问
 labels: ["feedback"]
 body:
   - type: dropdown
@@ -16,19 +16,19 @@ body:
   - type: textarea
     id: content
     attributes:
-      label: Feedback / Question
+      label: 反馈内容 / 问题描述
       placeholder: |
-        This could be:
-        - Overall experience with a specific tool
-        - What you think works well / could be improved
-        - Unsure how to use a feature and want a simple explanation
+        可以是：
+        - 某个工具用起来的整体感觉
+        - 你觉得哪里做得还不错 / 不够好
+        - 不确定怎么使用某个功能，想要一个简单说明
     validations:
       required: true
 
   - type: input
     id: version
     attributes:
-      label: Current AirTools Version (optional)
-      placeholder: "e.g.: 0.1.6"
+      label: 当前使用的 AirTools 版本（可选）
+      placeholder: "例如：0.1.6"
     validations:
       required: false

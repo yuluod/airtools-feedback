@@ -2,6 +2,17 @@ name: "💡 Feature Request"
 description: Suggest new features or experience improvements for AirTools
 labels: ["enhancement"]
 body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / 语言
+      description: Please select your preferred language / 请选择您偏好的语言
+      options:
+        - English
+        - 中文 (Chinese)
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |

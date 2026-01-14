@@ -1,0 +1,59 @@
+name: "💡 Feature Request (中文)"
+description: 提出你希望 AirTools 支持的新功能或体验优化
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / 语言
+      description: Please select your preferred language / 请选择您偏好的语言
+      options:
+        - English
+        - 中文 (Chinese)
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出你的想法！不需要写得很正式，只要能说明「要解决什么问题」即可。
+
+  - type: input
+    id: version
+    attributes:
+      label: 当前使用的 AirTools 版本
+      placeholder: "例如：0.1.6"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决的问题 / 使用场景
+      placeholder: "例如：经常需要对两个 JSON 做结构对比，希望能更快看出差异。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你期望的功能 / 行为
+      placeholder: "例如：提供一个“双栏 diff” 工具，可以高亮显示结构差异。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 你目前的替代方案（如果有）
+      placeholder: "例如：现在是用某某网站/其他工具凑合，但体验不太好。"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 其他补充
+      placeholder: "任何你觉得有用的信息、草图、链接等。"
+    validations:
+      required: false
