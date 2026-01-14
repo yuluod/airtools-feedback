@@ -1,54 +1,65 @@
 # AirTools Feedback
 
-这里是 **AirTools** 的公开反馈仓库，用于收集：
+This is the public feedback repository for **AirTools**, used to collect:
 
-- Bug 反馈
-- 功能 / 体验建议
-- 使用中的疑问
-
----
-
-## 🐞 遇到问题 / Bug
-
-如果你在使用 AirTools 时遇到问题，请：
-
-1. 先确认你使用的是最新版本（可在应用内查看版本号，例如 `0.1.6`）。
-2. 创建一个 **Bug 报告** issue：
-   - 点击这里 👉 [新建 Bug 反馈](https://github.com/yuluod/airtools-feedback/issues/new?template=bug-report.yml)
-   - 尽量附上：
-     - 系统信息（如：macOS 15 / Windows 11）
-     - AirTools 版本号
-     - 复现步骤
-     - 截图或录屏（如果方便的话）
+- Bug reports
+- Feature / experience suggestions  
+- Usage questions
 
 ---
 
-## 💡 功能 / 体验建议
+## 🐞 Bug Reports
 
-欢迎你对 AirTools 提任何想法，包括：
+If you encounter issues while using AirTools, please:
 
-- 希望新增的工具
-- 现有工具的改进点
-- 欢迎页 / UI / 交互上的体验优化
-
-请使用 **Feature Request** 模板：
-
-- 👉 [提交功能 / 体验建议](https://github.com/yuluod/airtools-feedback/issues/new?template=feature-request.yml)
-
----
-
-## 💬 一般反馈 / 问题求助
-
-如果只是想简单说说使用感受、提一些不成型的想法，或者对某个功能不会用：
-
-- 👉 [提交一般反馈 / 提问](https://github.com/yuluod/airtools-feedback/issues/new?template=general-feedback.yml)
+1. First confirm you're using the latest version (check in the app, e.g. `0.1.6`).
+2. Create a **Bug Report** issue:
+   - Click here 👉 [New Bug Report](https://github.com/yuluod/airtools-feedback/issues/new?template=bug-report-en.yml)
+   - Please include:
+     - System information (e.g.: macOS 15 / Windows 11)
+     - AirTools version number
+     - Steps to reproduce
+     - Screenshots or screen recordings (if possible)
 
 ---
 
-## ℹ️ 关于 AirTools
+## 💡 Feature / Experience Suggestions
 
-- 应用类型：桌面端工具集（Tauri + Vue 3）
-- 主要功能：多类型的工具
-- 当前支持平台：Windows / macOS / Linux
+We welcome any ideas for AirTools, including:
 
-感谢你愿意花时间反馈问题或建议，这对 AirTools 的持续打磨非常重要 🙏
+- New tools you'd like to see
+- Improvements to existing tools
+- Welcome page / UI / interaction experience optimizations
+
+Please use the **Feature Request** template:
+
+- 👉 [Submit Feature / Experience Suggestion](https://github.com/yuluod/airtools-feedback/issues/new?template=feature-request-en.yml)
+
+---
+
+## 💬 General Feedback / Questions
+
+If you just want to share usage experiences, suggest informal ideas, or ask questions about using a feature:
+
+- 👉 [Submit General Feedback / Question](https://github.com/yuluod/airtools-feedback/issues/new?template=general-feedback-en.yml)
+
+---
+
+## ℹ️ About AirTools
+
+- **Application Type**: Desktop toolkit (Tauri + Vue 3)
+- **Main Features**: Multiple types of tools
+- **Supported Platforms**: Windows / macOS / Linux
+
+Thank you for taking the time to report issues or provide suggestions. This is very important for the continuous improvement of AirTools 🙏
+
+---
+
+## 中文版本 (Chinese Version)
+
+如果您更习惯使用中文，可以查看中文版本的说明：
+
+- [中文 README](https://github.com/yuluod/airtools-feedback/blob/main/README-zh.md)
+- [Bug 反馈](https://github.com/yuluod/airtools-feedback/issues/new?template=bug-report.yml)
+- [功能建议](https://github.com/yuluod/airtools-feedback/issues/new?template=feature-request.yml)
+- [一般反馈](https://github.com/yuluod/airtools-feedback/issues/new?template=general-feedback.yml)

@@ -1,0 +1,23 @@
+name: "💬 General Feedback / Questions"
+description: Share usage experience, simple ideas, or ask questions about features
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: Feedback / Question
+      placeholder: |
+        This could be:
+        - Overall experience with a specific tool
+        - What you think works well / could be improved
+        - Unsure how to use a feature and want a simple explanation
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Current AirTools Version (optional)
+      placeholder: "e.g.: 0.1.6"
+    validations:
+      required: false

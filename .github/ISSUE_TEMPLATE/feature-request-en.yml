@@ -1,0 +1,48 @@
+name: "💡 Feature Request"
+description: Suggest new features or experience improvements for AirTools
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to share your ideas! No need to be formal, just explain "what problem you want to solve".
+
+  - type: input
+    id: version
+    attributes:
+      label: Current AirTools Version
+      placeholder: "e.g.: 0.1.6"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Use Case You Want to Solve
+      placeholder: "e.g.: I often need to compare the structure of two JSON files and want to see differences more quickly."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Expected Feature / Behavior
+      placeholder: "e.g.: Provide a 'dual-pane diff' tool that highlights structural differences."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current Workaround (if any)
+      placeholder: "e.g.: Currently using some website/other tool, but the experience is not great."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information
+      placeholder: "Any useful information, sketches, links, etc."
+    validations:
+      required: false

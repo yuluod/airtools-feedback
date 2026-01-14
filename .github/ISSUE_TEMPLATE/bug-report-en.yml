@@ -1,0 +1,82 @@
+name: "🐞 Bug Report"
+description: Report issues or unexpected behavior when using AirTools
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out this template as completely as possible to help us identify the issue faster.
+
+  - type: input
+    id: version
+    attributes:
+      label: AirTools Version
+      description: The version number you see in the app, e.g. 0.1.6
+      placeholder: "0.1.6"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version
+      placeholder: "e.g.: macOS 15.0 / Windows 11 23H2 / Ubuntu 24.04"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem Summary
+      placeholder: "Brief description of the issue, e.g.: JSON formatting results in empty content"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide steps that can reproduce the issue
+      placeholder: |
+        1. Open XXX tool
+        2. Input/paste ...
+        3. Click "Format"
+        4. The result is ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: "What did you expect to happen?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      placeholder: "What actually happened? You can include error messages here."
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Information / Screenshots
+      description: Optional: Screenshots, screen recordings, sample input, etc.
+    validations:
+      required: false
