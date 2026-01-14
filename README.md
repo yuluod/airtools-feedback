@@ -1,5 +1,13 @@
 # AirTools Feedback
 
+---
+
+## 🌐 Language / 语言
+
+**English** | [中文版本](https://github.com/yuluod/airtools-feedback/blob/main/README-zh.md)
+
+---
+
 This is the public feedback repository for **AirTools**, used to collect:
 
 - Bug reports
@@ -52,14 +60,3 @@ If you just want to share usage experiences, suggest informal ideas, or ask ques
 - **Supported Platforms**: Windows / macOS / Linux
 
 Thank you for taking the time to report issues or provide suggestions. This is very important for the continuous improvement of AirTools 🙏
-
----
-
-## 中文版本 (Chinese Version)
-
-如果您更习惯使用中文，可以查看中文版本的说明：
-
-- [中文 README](https://github.com/yuluod/airtools-feedback/blob/main/README-zh.md)
-- [Bug 反馈](https://github.com/yuluod/airtools-feedback/issues/new?template=bug-report.yml)
-- [功能建议](https://github.com/yuluod/airtools-feedback/issues/new?template=feature-request.yml)
-- [一般反馈](https://github.com/yuluod/airtools-feedback/issues/new?template=general-feedback.yml)
