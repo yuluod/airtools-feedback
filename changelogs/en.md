@@ -1,0 +1,84 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [v0.1.21] - 2026-02-03
+
+Image watermark UX upgrades, more robust HEIF/HEIC handling, and standardized styling/dark mode configuration
+
+### Improvements
+- Improved: Multi-image watermark preview & navigation (added a bottom thumbnail strip)
+- Improved: Memory usage & stability in image watermarking (large-image safeguards + decode timeout protection)
+- Improved: More accurate image format detection (header sniffing; better HEIF/AVIF identification)
+- Improved: Standardized dark mode setup and CSS variable naming/usage
+
+### Maintenance
+- Maintenance: Improved release/sync workflows and enhanced `changelogs/` synchronization
+
+## [v0.1.20] - 2026-02-01
+
+Auto-download updates, multiple UI optimizations and stability improvements
+
+### New Features
+- Added: Auto-download updates option in settings
+- Added: Toolbar slider and number input components for easier parameter adjustment
+- Added: Update source backup mechanism for improved update stability
+
+### Improvements
+- Optimized: Smoother theme and language settings with improved initialization logic
+- Optimized: More stable synchronization for favorites, tool sorting and visibility settings
+- Optimized: Clearer layout for image compression settings interface
+- Optimized: Tab switching component and various UI style adjustments
+- Optimized: Unified dark mode background colors and tooltip component styles
+- Optimized: Option layout and hint display for Unicode converter and other tools
+
+### Bug Fixes
+- Fixed: Shortcut keys not working after tool list filtering
+- Fixed: Regex tester writing duplicate history records
+- Fixed: Various style detail issues
+
+## [v0.1.19] - 2026-01-27
+
+### Maintenance Update
+Mainly stability optimizations and release preparation, no significant functional changes in this release.
+
+## [v0.1.18] - 2026-01-27
+
+### Maintenance Update
+Improved application stability and system compatibility.
+
+## [v0.1.17] - 2026-01-27
+
+### System & Settings
+- Added: System real-time monitoring panel
+- Added: Settings search, version display, auto-start on boot, close button behavior configuration
+- Added: Data import/export, clear history/favorites, feedback and update checking
+- Added: Local persistent storage for history, favorites and settings
+
+### New Tools & Capabilities
+- Added: SVG to CSS tool with examples
+- Added: Cron parser and generator tool
+- Added: HEIF/HEIC input support for image watermark
+- Added: Batch apply settings support for image compression
+- Added: Error log recording and diagnostic export
+
+### Experience Optimization
+- Optimized: Large text input/output performance and placeholder display (JSON/YAML/TOML, etc.)
+- Optimized: Settings/history/logs interaction and usability
+- Optimized: Hints and examples for URL encoding/parsing, JWT and other tools
+- Optimized: Auto-refresh and options for UUID/ULID/password generators
+
+### Bug Fixes
+- Fixed: Tool list selection state out of sync after switching
+- Fixed: Image compression "batch apply" button style and interaction abnormalities
+- Fixed: Tray menu multilingual issues and some tool layout/validation problems
+
+## [v0.1.6] - 2025-11-23
+
+### UI Consistency Optimization
+- Global theme alignment: replaced hardcoded blue colors with theme-aware primary colors
+- Icon improvements: updated panel types and icon display for multiple tools
+- Component refactoring: RegexTester now uses standard IOPanel component
+
+### Bug Fixes
+- Fixed Tab indentation icon display issues in some tools
