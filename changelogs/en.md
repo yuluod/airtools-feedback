@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.22] - 2026-02-10
+
+Introduced the Line Deduplicator with user-facing UX upgrades: smoother large-text handling, clearer duplicate insights, and improved welcome-page interactions
+
+### New Features
+- Added: New Line Deduplicator tool (custom equivalence rules, trim-insensitive mode, case-insensitive mode)
+- Added: Duplicate details with a right-side drawer showing counts and line numbers
+- Added: Zero-width character strategies (ignore zero-width characters, optionally strip them in output)
+
+### Improvements
+- Improved: Smoother large-text deduplication performance (processed in a background Worker)
+- Improved: Added one-click clear for deduplication custom rules
+- Improved: Refined welcome-page tool categorization and search behavior
+- Improved: Reworked welcome-page drag-hide interaction using pointer events and a composable
+
+### Maintenance
+- Maintenance: Minor release and compatibility pipeline refinements to improve publishing stability (no user-facing behavior changes)
+
 ## [v0.1.21] - 2026-02-03
 
 Image watermark UX upgrades, more robust HEIF/HEIC handling, and standardized styling/dark mode configuration
