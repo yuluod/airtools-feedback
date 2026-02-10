@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.23] - 2026-02-10
+
+Clearer update experience, more reliable image compression, and stronger security
+
+### New Features
+- Added: Update checks now show this version release notes directly, with a link to the full release page
+- Added: For user-initiated update checks, installation confirmation pops up automatically after download; on macOS, users are warned that installation will quit the app
+
+### Improvements
+- Improved: Release-notes language selection now prefers the current language and falls back automatically when unavailable
+- Improved: Better error handling and user feedback during image preview, decode, and compression flows
+
+### Fixes
+- Fixed: "Update now / retry" paths now correctly propagate the user-initiated check flag
+- Fixed: Removed `unsafe-inline` from `script-src` in CSP to reduce script-injection risk
+
+### Maintenance
+- Maintenance: Internal release pipeline reliability improvements (no user action required)
+
 ## [v0.1.22] - 2026-02-10
 
 Introduced the Line Deduplicator with user-facing UX upgrades: smoother large-text handling, clearer duplicate insights, and improved welcome-page interactions
