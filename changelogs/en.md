@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.24] - 2026-02-12
+
+UI consistency and stability update: smoother interactions, more reliable upload and theme behavior
+
+### New Features
+- Added: Clear startup loading feedback with better error fallback handling
+- Added: Unified file-pick and drag-and-drop upload interactions across image-related tools
+
+### Improvements
+- Improved: More consistent button/input/card behavior on high-traffic pages like Welcome, Settings, and History
+- Improved: Better tool-search matching for more stable and accurate results
+- Improved: Theme sync and cold-start rendering to reduce visual flicker during launch/switching
+- Improved: Smoother color-adjustment interactions
+
+### Fixes
+- Fixed: CSS variable syntax issue that could cause style rendering anomalies
+
+### Maintenance
+- Maintenance: Strengthened release and quality-check workflows for more stable deliveries
+
 ## [v0.1.23] - 2026-02-10
 
 Clearer update experience, more reliable image compression, and stronger security
