@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.25] - 2026-02-22
+
+Startup and tool experience update: smoother cold start, more consistent text workflows and accessibility interactions
+
+### New Features
+- Added: Unified inline diff highlighting for Diff, Regex, and Line Deduplicator tools, with large-text highlight support increased to 10,000 lines
+- Added: Markdown rendering support for update release notes in update checks
+
+### Improvements
+- Improved: Better cold-start speed and smoother startup flow when entering the main interface
+- Improved: More stable boot splash logo/title rendering to reduce visible startup jitter
+- Improved: Direction switching in bidirectional converter tools now clears input by default to reduce result confusion
+- Improved: Keyboard interaction and accessibility behavior across key pages for more consistent navigation and feedback
+
+### Fixes
+- Fixed: Timestamp tool errors that could occur in some input scenarios
+- Fixed: Occasional incorrect initial state when opening some tools for the first time
+- Fixed: Matching and drag-and-drop interaction edge cases in Regex and Image Base64 tools
+
+### Maintenance
+- Maintenance: Improved Windows stability for the release command flow (no daily-use behavior changes)
+
 ## [v0.1.24] - 2026-02-12
 
 UI consistency and stability update: smoother interactions, more reliable upload and theme behavior
