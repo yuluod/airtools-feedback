@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.26] - 2026-03-17
+
+Ongoing settings and licensing refinements, clearer home/navigation interactions, and a stronger testing and release baseline
+
+### New Features
+- Added: A redesigned settings experience with more consistent navigation, search, locked-state guidance, and back behavior
+- Added: Email activation, device identifier viewing/copying, and clearer license-state feedback
+- Added: Sidebar category filtering, richer feedback metadata, and more complete `docker run` parsing and validation
+
+### Improvements
+- Improved: Settings layout, license badges, and upgrade entry points are now more consistent, with clearer Free / Trial / Pro status presentation
+- Improved: Home page, title bar, sidebar, and tool-card interaction layering for smoother back/search/filter/scroll behavior
+- Improved: Copy and locked-preview guidance for tool ordering and history/data/module restrictions, reducing surprise after entering restricted sections
+
+### Fixes
+- Fixed: Theme-switching visual issues that could cause background mismatch or a washed-out look in dark mode
+- Fixed: Initial Toast/modal display issues, clipped settings navigation, RSA key generator error-state retention, and several highlight/input-detection edge cases
+- Fixed: Newly introduced activation error-code handling and missing localization strings in parts of the licensing flow
+
 ## [v0.1.25] - 2026-02-22
 
 Startup and tool experience update: smoother cold start, more consistent text workflows and accessibility interactions
