@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.1.27] - 2026-03-17
+
+Release licensing and feedback fixes: activation is more reliable and error reporting is clearer
+
+### Fixes
+- Fixed: An issue where activation could show a misleading "network error" in the packaged app
+- Fixed: Connection issues affecting license verification, deactivation, and feedback submission in the packaged app
+
+### Improvements
+- Improved: Clearer activation failure logging for faster troubleshooting
+
 ## [v0.1.26] - 2026-03-17
 
 Ongoing settings and licensing refinements, clearer home/navigation interactions, and a stronger testing and release baseline
