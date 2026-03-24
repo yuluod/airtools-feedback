@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.2.1] - 2026-03-24
+
+Theme and licensing upgrades: a more cohesive interface and clearer trial/activation states
+
+### New Features
+- Added: More material-inspired themes, including Frost, Parchment, and Graphite, so the app can better match your preferred look
+- Added: A fuller activation and licensing view with device ID visibility, clearer status presentation, and better recovery guidance
+
+### Improvements
+- Improved: Visual consistency across the welcome page, settings, title bar, cards, and in-app feedback under different themes
+- Improved: Theme grouping, locked-state summaries, activation messaging, and About page layout to reduce duplicate information and make status easier to understand
+- Improved: Theme switching, card layout, and settings search behavior for a clearer multi-theme experience
+
+### Fixes
+- Fixed: Cases where previously saved themes could restore into an inconsistent state after launch
+- Fixed: Inconsistent toast color and layering behavior during theme switching
+- Fixed: Mismatches between locked-setting counts and the actual affected capabilities after trial expiry
+
 ## [v0.1.27] - 2026-03-17
 
 Release licensing and feedback fixes: activation is more reliable and error reporting is clearer
