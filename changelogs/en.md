@@ -2,7 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v0.2.1] - 2026-03-24
+## [v0.2.1] - 2026-03-25
+
+Clearer settings sections, with continued tray and licensing improvements
+
+### Improvements
+- Improved: "Check for updates after launch" now lives in the Update section alongside auto-download settings, making update-related options easier to find
+- Improved: Refined the Activation & Licensing page layout and status presentation so the current device, license state, and common actions are easier to understand
+- Improved: Current device names now prefer the system hostname for more natural device identification
+
+### Fixes
+- Fixed: Cases where launch-at-startup could not be enabled or disabled
+- Fixed: In tray "Toggle window" mode, a click could occasionally make the window flicker and bounce right back
+- Fixed: After hiding the window, tray "Show window" and related menu actions could be unreliable in bringing the app back to the foreground
+
+## [v0.2.0] - 2026-03-24
 
 Theme and licensing upgrades: a more cohesive interface and clearer trial/activation states
 
