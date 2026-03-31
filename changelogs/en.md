@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.2.2] - 2026-03-31
+
+Further refinements to settings and license recovery, with clearer update, shortcut, and compliance entry points
+
+### New Features
+- Added: Custom global shortcut editing in Settings so common actions can better match your own workflow
+- Added: A unified update entry and update status on the home screen, with direct access to release notes and current progress
+- Added: Legal notice and third-party dependency notices in About for more complete product information
+
+### Improvements
+- Improved: Cards, navigation, page headers, confirm dialogs, and Pro markers across Settings sections for a more consistent structure and visual hierarchy
+- Improved: Activation and licensing copy, offline grant expiration display, and recovery guidance so one-time purchase, offline validity, and online sync expectations stay aligned
+- Improved: Automatic license verification behavior for expiring-soon, expired, recovering, and backoff states to reduce downgrade flashes on launch and lower manual recovery effort
+- Improved: Overview and guidance for locked areas such as data, history, tool visibility, and ordering, making restricted states easier to understand
+- Improved: Sidebar tool colors, tool grouping, and supported-tool presentation for clearer recognition
+
+### Fixes
+- Fixed: Cases where update status and download progress could appear inconsistent between the home screen and Settings
+- Fixed: Interaction issues such as settings-view flicker and unintended Esc bubbling in the history panel and confirm dialogs
+- Fixed: Detail-level issues in data export summaries and informational content rendering
+
+### Maintenance
+- Maintenance: Expanded third-party dependency notices for more complete release information
+
 ## [v0.2.1] - 2026-03-25
 
 Clearer settings sections, with continued tray and licensing improvements
