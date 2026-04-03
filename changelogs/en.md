@@ -2,170 +2,189 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v0.2.2] - 2026-03-31
+## [v0.2.3] - 2026-04-03
 
-Further refinements to settings and license recovery, with clearer update, shortcut, and compliance entry points
+Added a QR workflow while continuing to refine data management and licensing experience
 
 ### New Features
-- Added: Custom global shortcut editing in Settings so common actions can better match your own workflow
-- Added: A unified update entry and update status on the home screen, with direct access to release notes and current progress
-- Added: Legal notice and third-party dependency notices in About for more complete product information
+- Added: Data import, export, and backup management
+- Added: A QR code generator and scanner
+- Added: A clear entry for usage history
 
 ### Improvements
-- Improved: Cards, navigation, page headers, confirm dialogs, and Pro markers across Settings sections for a more consistent structure and visual hierarchy
-- Improved: Activation and licensing copy, offline grant expiration display, and recovery guidance so one-time purchase, offline validity, and online sync expectations stay aligned
-- Improved: Automatic license verification behavior for expiring-soon, expired, recovering, and backoff states to reduce downgrade flashes on launch and lower manual recovery effort
-- Improved: Overview and guidance for locked areas such as data, history, tool visibility, and ordering, making restricted states easier to understand
-- Improved: Sidebar tool colors, tool grouping, and supported-tool presentation for clearer recognition
+- Improved: Smoother Settings switching
+- Improved: Trial-state preservation after license removal
 
 ### Fixes
-- Fixed: Cases where update status and download progress could appear inconsistent between the home screen and Settings
-- Fixed: Interaction issues such as settings-view flicker and unintended Esc bubbling in the history panel and confirm dialogs
-- Fixed: Detail-level issues in data export summaries and informational content rendering
+- Fixed: Cases where QR scan results could be overwritten by an older task
 
 ### Maintenance
-- Maintenance: Expanded third-party dependency notices for more complete release information
+- Maintenance: Stability and polish improvements
+
+## [v0.2.2] - 2026-03-31
+
+Further refinements to Settings, license recovery, and update entry points
+
+### New Features
+- Added: Custom global shortcut editing in Settings
+- Added: A home-screen update entry and status display
+- Added: Legal notice and third-party dependency notices in About
+
+### Improvements
+- Improved: Settings structure and visual hierarchy
+- Improved: Activation copy and recovery guidance
+- Improved: Offline license recovery and automatic verification
+- Improved: Guidance for locked sections
+- Improved: Sidebar tool colors and grouping
+
+### Fixes
+- Fixed: Cases where update status could appear inconsistent between Home and Settings
+- Fixed: Settings flicker and some unintended Esc interactions
+- Fixed: Detail issues in data export summaries and informational content
+
+### Maintenance
+- Maintenance: Expanded third-party dependency notices
 
 ## [v0.2.1] - 2026-03-25
 
 Clearer settings sections, with continued tray and licensing improvements
 
 ### Improvements
-- Improved: "Check for updates after launch" now lives in the Update section alongside auto-download settings, making update-related options easier to find
-- Improved: Refined the Activation & Licensing page layout and status presentation so the current device, license state, and common actions are easier to understand
-- Improved: Current device names now prefer the system hostname for more natural device identification
+- Improved: Update-related settings are easier to find
+- Improved: Activation & Licensing layout and status presentation
+- Improved: Current device naming feels more natural
 
 ### Fixes
 - Fixed: Cases where launch-at-startup could not be enabled or disabled
-- Fixed: In tray "Toggle window" mode, a click could occasionally make the window flicker and bounce right back
-- Fixed: After hiding the window, tray "Show window" and related menu actions could be unreliable in bringing the app back to the foreground
+- Fixed: Occasional tray toggle flicker when showing the window
+- Fixed: Cases where tray actions were unreliable after the window was hidden
 
 ## [v0.2.0] - 2026-03-24
 
-Theme and licensing upgrades: a more cohesive interface and clearer trial/activation states
+Theme and licensing upgrades
 
 ### New Features
-- Added: More material-inspired themes, including Frost, Parchment, and Graphite, so the app can better match your preferred look
-- Added: A fuller activation and licensing view with device ID visibility, clearer status presentation, and better recovery guidance
+- Added: More material-inspired themes
+- Added: A fuller activation and licensing view
 
 ### Improvements
-- Improved: Visual consistency across the welcome page, settings, title bar, cards, and in-app feedback under different themes
-- Improved: Theme grouping, locked-state summaries, activation messaging, and About page layout to reduce duplicate information and make status easier to understand
-- Improved: Theme switching, card layout, and settings search behavior for a clearer multi-theme experience
+- Improved: Theme consistency across the welcome page, Settings, and title bar
+- Improved: Theme grouping, locked-state summaries, and activation messaging
+- Improved: Theme switching, card layout, and settings search
 
 ### Fixes
-- Fixed: Cases where previously saved themes could restore into an inconsistent state after launch
-- Fixed: Inconsistent toast color and layering behavior during theme switching
-- Fixed: Mismatches between locked-setting counts and the actual affected capabilities after trial expiry
+- Fixed: Cases where saved themes could restore inconsistently after launch
+- Fixed: Inconsistent feedback styling during theme switching
+- Fixed: Incorrect locked-setting counts after trial expiry
 
 ## [v0.1.27] - 2026-03-17
 
-Release licensing and feedback fixes: activation is more reliable and error reporting is clearer
+Release licensing and feedback fixes
 
 ### Fixes
-- Fixed: An issue where activation could show a misleading "network error" in the packaged app
-- Fixed: Connection issues affecting license verification, deactivation, and feedback submission in the packaged app
+- Fixed: Cases where activation could show a misleading "network error" in the packaged app
+- Fixed: Connection issues affecting license verification, deactivation, and feedback submission
 
 ### Improvements
-- Improved: Clearer activation failure logging for faster troubleshooting
+- Improved: Clearer activation failure messaging
 
 ## [v0.1.26] - 2026-03-17
 
-Ongoing settings and licensing refinements, clearer home/navigation interactions, and a stronger testing and release baseline
+Further upgrades to Settings, licensing, and home-page interactions
 
 ### New Features
-- Added: A redesigned settings experience with more consistent navigation, search, locked-state guidance, and back behavior
-- Added: Email activation, device identifier viewing/copying, and clearer license-state feedback
-- Added: Sidebar category filtering, richer feedback metadata, and more complete `docker run` parsing and validation
+- Added: A redesigned Settings experience
+- Added: Email activation and device identifier viewing/copying
+- Added: Sidebar category filtering and more complete `docker run` parsing
 
 ### Improvements
-- Improved: Settings layout, license badges, and upgrade entry points are now more consistent, with clearer Free / Trial / Pro status presentation
-- Improved: Home page, title bar, sidebar, and tool-card interaction layering for smoother back/search/filter/scroll behavior
-- Improved: Copy and locked-preview guidance for tool ordering and history/data/module restrictions, reducing surprise after entering restricted sections
+- Improved: Settings layout, license badges, and upgrade entry points
+- Improved: Home page, title bar, and sidebar interactions
+- Improved: Guidance and preview states for locked sections
 
 ### Fixes
-- Fixed: Theme-switching visual issues that could cause background mismatch or a washed-out look in dark mode
-- Fixed: Initial Toast/modal display issues, clipped settings navigation, RSA key generator error-state retention, and several highlight/input-detection edge cases
-- Fixed: Newly introduced activation error-code handling and missing localization strings in parts of the licensing flow
+- Fixed: Theme-switching visual issues
+- Fixed: Toast, modal, and settings-navigation detail issues
+- Fixed: Some activation error handling and localization issues
 
 ## [v0.1.25] - 2026-02-22
 
-Startup and tool experience update: smoother cold start, more consistent text workflows and accessibility interactions
+Startup and tool experience update
 
 ### New Features
-- Added: Unified inline diff highlighting for Diff, Regex, and Line Deduplicator tools, with large-text highlight support increased to 10,000 lines
-- Added: Markdown rendering support for update release notes in update checks
+- Added: Inline diff highlighting for Diff, Regex, and Line Deduplicator
+- Added: Markdown rendering for update release notes
 
 ### Improvements
-- Improved: Better cold-start speed and smoother startup flow when entering the main interface
-- Improved: More stable boot splash logo/title rendering to reduce visible startup jitter
-- Improved: Direction switching in bidirectional converter tools now clears input by default to reduce result confusion
-- Improved: Keyboard interaction and accessibility behavior across key pages for more consistent navigation and feedback
+- Improved: Cold-start speed and startup smoothness
+- Improved: Boot splash logo and title stability
+- Improved: Direction switching in bidirectional converters
+- Improved: Keyboard and accessibility behavior
 
 ### Fixes
-- Fixed: Timestamp tool errors that could occur in some input scenarios
-- Fixed: Occasional incorrect initial state when opening some tools for the first time
-- Fixed: Matching and drag-and-drop interaction edge cases in Regex and Image Base64 tools
+- Fixed: Timestamp tool errors in some input scenarios
+- Fixed: Incorrect initial state when opening some tools
+- Fixed: Some Regex and Image Base64 interaction issues
 
 ### Maintenance
-- Maintenance: Improved Windows stability for the release command flow (no daily-use behavior changes)
+- Maintenance: Windows release-flow stability improvements
 
 ## [v0.1.24] - 2026-02-12
 
-UI consistency and stability update: smoother interactions, more reliable upload and theme behavior
+UI consistency and stability update
 
 ### New Features
-- Added: Clear startup loading feedback with better error fallback handling
-- Added: Unified file-pick and drag-and-drop upload interactions across image-related tools
+- Added: Startup loading feedback with better fallback handling
+- Added: Unified file-pick and drag-and-drop uploads
 
 ### Improvements
-- Improved: More consistent button/input/card behavior on high-traffic pages like Welcome, Settings, and History
-- Improved: Better tool-search matching for more stable and accurate results
-- Improved: Theme sync and cold-start rendering to reduce visual flicker during launch/switching
-- Improved: Smoother color-adjustment interactions
+- Improved: UI consistency across Welcome, Settings, and History
+- Improved: Tool-search matching
+- Improved: Theme sync and cold-start rendering
+- Improved: Color-adjustment interactions
 
 ### Fixes
 - Fixed: CSS variable syntax issue that could cause style rendering anomalies
 
 ### Maintenance
-- Maintenance: Strengthened release and quality-check workflows for more stable deliveries
+- Maintenance: Release and quality-check workflow improvements
 
 ## [v0.1.23] - 2026-02-10
 
-Clearer update experience, more reliable image compression, and stronger security
+Clearer update experience and more reliable image compression
 
 ### New Features
-- Added: Update checks now show this version release notes directly, with a link to the full release page
-- Added: For user-initiated update checks, installation confirmation pops up automatically after download; on macOS, users are warned that installation will quit the app
+- Added: Update checks now show this version’s release notes directly
+- Added: Install confirmation after user-initiated update downloads
 
 ### Improvements
-- Improved: Release-notes language selection now prefers the current language and falls back automatically when unavailable
-- Improved: Better error handling and user feedback during image preview, decode, and compression flows
+- Improved: Release-notes language fallback behavior
+- Improved: Error handling and feedback during image compression flows
 
 ### Fixes
-- Fixed: "Update now / retry" paths now correctly propagate the user-initiated check flag
-- Fixed: Removed `unsafe-inline` from `script-src` in CSP to reduce script-injection risk
+- Fixed: "Update now / retry" state handling during update checks
+- Fixed: A script security issue in CSP
 
 ### Maintenance
-- Maintenance: Internal release pipeline reliability improvements (no user action required)
+- Maintenance: Release pipeline stability improvements
 
 ## [v0.1.22] - 2026-02-10
 
-Introduced the Line Deduplicator with user-facing UX upgrades: smoother large-text handling, clearer duplicate insights, and improved welcome-page interactions
+Introduced the Line Deduplicator with smoother large-text handling
 
 ### New Features
-- Added: New Line Deduplicator tool (custom equivalence rules, trim-insensitive mode, case-insensitive mode)
-- Added: Duplicate details with a right-side drawer showing counts and line numbers
-- Added: Zero-width character strategies (ignore zero-width characters, optionally strip them in output)
+- Added: The Line Deduplicator tool
+- Added: Duplicate details with a right-side drawer
+- Added: Zero-width character handling strategies
 
 ### Improvements
-- Improved: Smoother large-text deduplication performance (processed in a background Worker)
-- Improved: Added one-click clear for deduplication custom rules
-- Improved: Refined welcome-page tool categorization and search behavior
-- Improved: Reworked welcome-page drag-hide interaction using pointer events and a composable
+- Improved: Large-text deduplication performance
+- Improved: Deduplication rule management
+- Improved: Welcome-page tool categorization and search
+- Improved: Welcome-page drag-hide interaction
 
 ### Maintenance
-- Maintenance: Minor release and compatibility pipeline refinements to improve publishing stability (no user-facing behavior changes)
+- Maintenance: Release and compatibility pipeline refinements
 
 ## [v0.1.21] - 2026-02-03
 
