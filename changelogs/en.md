@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.2.4] - 2026-04-05
+
+Further refinements to the main workspace shell, XML output modes, and title-bar stability
+
+### New Features
+- Added: A fuller main workspace framework and app-shell structure
+- Added: More output modes for the XML converter
+
+### Improvements
+- Improved: Update prompt button visibility logic
+- Improved: QR tool copy and interface wording
+- Improved: Workspace chrome, layout styling, and button focus visibility
+
+### Fixes
+- Fixed: The title bar briefly flashing the default title when opening tools from the welcome page
+
 ## [v0.2.3] - 2026-04-03
 
 Added a QR workflow while continuing to refine data management and licensing experience
