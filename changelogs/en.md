@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.2.5] - 2026-04-12
+
+Continued improvements to the trial flow, upgrade compatibility, and ImageBase64 stability
+
+### New Features
+- Added: One-time manual trial start
+- Added: Automatic compatibility handling for legacy tool records after upgrades
+
+### Improvements
+- Improved: Scrolling feels more consistent across the sidebar, welcome page, and tool areas
+
+### Fixes
+- Fixed: Trial state transitions and failed trial-entry feedback
+- Fixed: Cases where history deduplication did not work correctly for some format-conversion tools
+- Fixed: Cases where renamed tools could lose favorites, history, or sidebar state after upgrading
+- Fixed: A set of ImageBase64 state issues around swapping, decoding, and clearing
+
 ## [v0.2.4] - 2026-04-05
 
 Further refinements to the main workspace shell, XML output modes, and title-bar stability
