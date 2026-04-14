@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.3.0] - 2026-04-14
+
+Added more everyday formatting and preview tools while continuing to refine the UUID and conversion workflows
+
+### New Features
+- Added: A dual-mode UUID tool with both Generate and Inspect views
+- Added: A bidirectional JSON/CSV converter
+- Added: Markdown Preview and HTML Preview tools
+- Added: A SQL formatter with support for several common dialects
+
+### Improvements
+- Improved: UUID inspect-mode switching, layout, and result presentation
+- Improved: SQL example switching, restore behavior, and interaction details
+- Improved: Reading experience and history restore behavior for Markdown and HTML previews
+
+### Fixes
+- Fixed: A set of UUID issues affecting inspect mode, scrolling, and auto-height behavior
+- Fixed: A set of JSON/CSV issues affecting malformed input handling, history behavior, and empty rows
+- Fixed: SQL formatting issues affecting examples, restore flows, and some formatting cases
+- Fixed: HTML Preview display issues for some partial documents and dark mode
+
 ## [v0.2.5] - 2026-04-12
 
 Continued improvements to the trial flow, upgrade compatibility, and ImageBase64 stability
