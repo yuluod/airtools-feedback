@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.0] - 2026-04-16
+
+Further expands the design and date toolset while refining interaction details across several high-frequency text tools
+
+### New Features
+- Added: A number base converter
+- Added: A timezone planner and a date calculator
+- Added: A gradient generator and a palette generator
+
+### Improvements
+- Improved: Date calculator interaction flow and result summaries
+- Improved: Date input and panel header layout in the timezone planner
+- Improved: Feedback handling and large-input behavior across several high-frequency text tools
+- Improved: Tool subtitle wrapping in narrow layouts
+
+### Fixes
+- Fixed: A set of workflow regressions in high-frequency text tools
+
 ## [v0.3.0] - 2026-04-14
 
 Added more everyday formatting and preview tools while continuing to refine the UUID and conversion workflows
