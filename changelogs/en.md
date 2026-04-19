@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.1] - 2026-04-19
+
+System Monitor adds Apple Silicon metrics and interactive cards
+
+### New Features
+- Added: Apple Silicon E/P-core, GPU, and power metric cards
+- Added: Click-to-expand cards with stats row
+
+### Improvements
+- Improved: Skeleton placeholder and error retry on first load
+- Improved: Refactored sampling pipeline to reduce contention
+
+### Fixes
+- Fixed: Settings preload fallback
+- Fixed: Someissues on Intel Mac with macOS
+
 ## [v0.4.0] - 2026-04-16
 
 Further expands the design and date toolset while refining interaction details across several high-frequency text tools
