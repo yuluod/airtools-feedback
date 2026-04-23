@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.2] - 2026-04-23
+
+Further improved the welcome-page browsing experience and added a cURL conversion tool
+
+### New Features
+- Added: A cURL converter that turns cURL commands into request code for multiple common languages
+- Added: Expand and collapse controls for tool categories on the welcome page
+
+### Improvements
+- Improved: The welcome-page hero, search field, and overall tool-browsing layout
+- Improved: Favorite interactions, category browsing, and narrow-layout presentation for tool cards
+- Improved: Language switching and code highlighting in the cURL converter
+
+### Fixes
+- Fixed: Residual state issues after some sliding-selector and dropdown interactions
+- Fixed: Code-highlighting issues affecting some JavaScript results
+
 ## [v0.4.1] - 2026-04-19
 
 System Monitor adds Apple Silicon metrics and interactive cards
