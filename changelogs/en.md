@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v0.4.2] - 2026-04-23
+## [v0.4.3]
+
+Further improves welcome-page ordering and cURL converter stability in packaged builds
+
+### Improvements
+- Improved: Tool ordering on the welcome page after filtering now better follows the user's custom order
+
+### Fixes
+- Fixed: The cURL converter could fail when converting some commands in packaged builds
+
+## [v0.4.2]
 
 Further improved the welcome-page browsing experience and added a cURL conversion tool
 
@@ -19,7 +29,7 @@ Further improved the welcome-page browsing experience and added a cURL conversio
 - Fixed: Residual state issues after some sliding-selector and dropdown interactions
 - Fixed: Code-highlighting issues affecting some JavaScript results
 
-## [v0.4.1] - 2026-04-19
+## [v0.4.1]
 
 System Monitor adds Apple Silicon metrics and interactive cards
 
@@ -35,7 +45,7 @@ System Monitor adds Apple Silicon metrics and interactive cards
 - Fixed: Settings preload fallback
 - Fixed: Someissues on Intel Mac with macOS
 
-## [v0.4.0] - 2026-04-16
+## [v0.4.0]
 
 Further expands the design and date toolset while refining interaction details across several high-frequency text tools
 
@@ -53,7 +63,7 @@ Further expands the design and date toolset while refining interaction details a
 ### Fixes
 - Fixed: A set of workflow regressions in high-frequency text tools
 
-## [v0.3.0] - 2026-04-14
+## [v0.3.0]
 
 Added more everyday formatting and preview tools while continuing to refine the UUID and conversion workflows
 
@@ -74,7 +84,7 @@ Added more everyday formatting and preview tools while continuing to refine the 
 - Fixed: SQL formatting issues affecting examples, restore flows, and some formatting cases
 - Fixed: HTML Preview display issues for some partial documents and dark mode
 
-## [v0.2.5] - 2026-04-12
+## [v0.2.5]
 
 Continued improvements to the trial flow, upgrade compatibility, and ImageBase64 stability
 
@@ -91,7 +101,7 @@ Continued improvements to the trial flow, upgrade compatibility, and ImageBase64
 - Fixed: Cases where renamed tools could lose favorites, history, or sidebar state after upgrading
 - Fixed: A set of ImageBase64 state issues around swapping, decoding, and clearing
 
-## [v0.2.4] - 2026-04-05
+## [v0.2.4]
 
 Further refinements to the main workspace shell, XML output modes, and title-bar stability
 
@@ -107,7 +117,7 @@ Further refinements to the main workspace shell, XML output modes, and title-bar
 ### Fixes
 - Fixed: The title bar briefly flashing the default title when opening tools from the welcome page
 
-## [v0.2.3] - 2026-04-03
+## [v0.2.3]
 
 Added a QR workflow while continuing to refine data management and licensing experience
 
@@ -126,7 +136,7 @@ Added a QR workflow while continuing to refine data management and licensing exp
 ### Maintenance
 - Maintenance: Stability and polish improvements
 
-## [v0.2.2] - 2026-03-31
+## [v0.2.2]
 
 Further refinements to Settings, license recovery, and update entry points
 
@@ -150,7 +160,7 @@ Further refinements to Settings, license recovery, and update entry points
 ### Maintenance
 - Maintenance: Expanded third-party dependency notices
 
-## [v0.2.1] - 2026-03-25
+## [v0.2.1]
 
 Clearer settings sections, with continued tray and licensing improvements
 
@@ -164,7 +174,7 @@ Clearer settings sections, with continued tray and licensing improvements
 - Fixed: Occasional tray toggle flicker when showing the window
 - Fixed: Cases where tray actions were unreliable after the window was hidden
 
-## [v0.2.0] - 2026-03-24
+## [v0.2.0]
 
 Theme and licensing upgrades
 
@@ -182,7 +192,7 @@ Theme and licensing upgrades
 - Fixed: Inconsistent feedback styling during theme switching
 - Fixed: Incorrect locked-setting counts after trial expiry
 
-## [v0.1.27] - 2026-03-17
+## [v0.1.27]
 
 Release licensing and feedback fixes
 
@@ -193,7 +203,7 @@ Release licensing and feedback fixes
 ### Improvements
 - Improved: Clearer activation failure messaging
 
-## [v0.1.26] - 2026-03-17
+## [v0.1.26]
 
 Further upgrades to Settings, licensing, and home-page interactions
 
@@ -212,7 +222,7 @@ Further upgrades to Settings, licensing, and home-page interactions
 - Fixed: Toast, modal, and settings-navigation detail issues
 - Fixed: Some activation error handling and localization issues
 
-## [v0.1.25] - 2026-02-22
+## [v0.1.25]
 
 Startup and tool experience update
 
@@ -234,7 +244,7 @@ Startup and tool experience update
 ### Maintenance
 - Maintenance: Windows release-flow stability improvements
 
-## [v0.1.24] - 2026-02-12
+## [v0.1.24]
 
 UI consistency and stability update
 
@@ -254,7 +264,7 @@ UI consistency and stability update
 ### Maintenance
 - Maintenance: Release and quality-check workflow improvements
 
-## [v0.1.23] - 2026-02-10
+## [v0.1.23]
 
 Clearer update experience and more reliable image compression
 
@@ -273,7 +283,7 @@ Clearer update experience and more reliable image compression
 ### Maintenance
 - Maintenance: Release pipeline stability improvements
 
-## [v0.1.22] - 2026-02-10
+## [v0.1.22]
 
 Introduced the Line Deduplicator with smoother large-text handling
 
@@ -291,7 +301,7 @@ Introduced the Line Deduplicator with smoother large-text handling
 ### Maintenance
 - Maintenance: Release and compatibility pipeline refinements
 
-## [v0.1.21] - 2026-02-03
+## [v0.1.21]
 
 Image watermark UX upgrades, more robust HEIF/HEIC handling, and standardized styling/dark mode configuration
 
@@ -304,7 +314,7 @@ Image watermark UX upgrades, more robust HEIF/HEIC handling, and standardized st
 ### Maintenance
 - Maintenance: Improved release/sync workflows and enhanced `changelogs/` synchronization
 
-## [v0.1.20] - 2026-02-01
+## [v0.1.20]
 
 Auto-download updates, multiple UI optimizations and stability improvements
 
@@ -326,17 +336,17 @@ Auto-download updates, multiple UI optimizations and stability improvements
 - Fixed: Regex tester writing duplicate history records
 - Fixed: Various style detail issues
 
-## [v0.1.19] - 2026-01-27
+## [v0.1.19]
 
 ### Maintenance Update
 Mainly stability optimizations and release preparation, no significant functional changes in this release.
 
-## [v0.1.18] - 2026-01-27
+## [v0.1.18]
 
 ### Maintenance Update
 Improved application stability and system compatibility.
 
-## [v0.1.17] - 2026-01-27
+## [v0.1.17]
 
 ### System & Settings
 - Added: System real-time monitoring panel
@@ -362,7 +372,7 @@ Improved application stability and system compatibility.
 - Fixed: Image compression "batch apply" button style and interaction abnormalities
 - Fixed: Tray menu multilingual issues and some tool layout/validation problems
 
-## [v0.1.6] - 2025-11-23
+## [v0.1.6]
 
 ### UI Consistency Optimization
 - Global theme alignment: replaced hardcoded blue colors with theme-aware primary colors
