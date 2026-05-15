@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.5]
+
+### New Features
+- Added: JSONPath Tester — enter JSON data and a JSONPath expression to inspect matching results in real time
+
+### Fixes
+- Fixed: Newly added default-enabled tools could remain hidden for existing users after upgrading
+
 ## [v0.4.4]
 
 ### New Features
