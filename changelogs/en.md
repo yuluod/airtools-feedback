@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.4]
+
+### New Features
+- Added: IPv4 Subnet Calculator — parse CIDR blocks and display network address, broadcast, usable hosts, subnet mask, IP class, and more
+
+### Improvements
+- Improved: Internal calculation state management for timestamp, date calculator, and timezone planner tools
+- Improved: cURL converter parser compatibility in browser environments
+
+### Fixes
+- Fixed: Color panel props default value lint warning
+
 ## [v0.4.3]
 
 Further improves welcome-page ordering and cURL converter stability in packaged builds
