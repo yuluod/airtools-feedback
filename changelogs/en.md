@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.6]
+
+Smart Detect now recognizes more everyday text and external entry can open AirTools faster
+
+### New Features
+- Added: Home can manually inspect the current clipboard and optionally auto-detect when entering Home
+- Added: Smart Detect now recognizes more common text, including URL-encoded text, SQL, Markdown, cURL, Cron, IPv4/CIDR, Unicode escape text, and ULID
+- Added: `airtools://` external entry can open AirTools or jump to a specific tool
+
+### Improvements
+- Improved: Clipboard recommendation cards now show their source and use a smoother detection animation
+- Improved: Base64, URL Encoder, cURL Converter, and Unicode Converter can restore Smart Detect input and switch to a suitable mode when possible
+
+### Fixes
+- Fixed: Clipboard detection could keep showing an old recommendation after empty or non-text clipboard reads
+- Fixed: Image and other non-text clipboard payloads are no longer mislabeled as clipboard read failures
+- Fixed: Several cold-start external-entry navigation and copy display issues
+
 ## [v0.4.5]
 
 ### New Features
