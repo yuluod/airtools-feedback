@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.7]
+
+Added Mermaid Preview and strengthened license verification and release-time safety checks
+
+### New Features
+- Added: Mermaid Preview tool with live diagram rendering, example templates, theme switching, and copy support for SVG, PNG, or transparent PNG output
+- Added: Redacted diagnostic logs for license activation, verification, and deactivation failures
+
+### Improvements
+- Improved: Mermaid Preview SVG sanitization and zoom behavior, making complex flowcharts and Gantt charts easier to inspect
+- Improved: License verification compatibility for older macOS / WKWebView builds, with stronger release-time public key checks
+- Improved: Settings section shadows to avoid grey bleed around bottom corners
+
+### Fixes
+- Fixed: Older WebKit environments could incorrectly report a missing license public key during grant verification
+- Fixed: Mermaid Preview could lose Mermaid-generated SVG styling while zooming, causing some templates to degrade into black nodes
+
 ## [v0.4.6]
 
 Smart Detect now recognizes more everyday text and external entry can open AirTools faster
