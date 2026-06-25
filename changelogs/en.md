@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.8]
+
+Improved history presentation and Smart Detect recommendations, unified copy/paste behavior, and stronger pre-release checks
+
+### Improvements
+- Improved: History cards add a restore action and compressed input/output summaries
+- Improved: History empty states distinguish no history, no search results, no records for the current tool, and no records for the current filter
+- Improved: Smart Detect shows detected type, recommended action, and truncated content preview
+- Improved: Unified copy/paste behavior across text, image, and QR-related tools
+- Improved: Internal reorganization of home, tool switching, settings, shortcuts, tray, and window titles without changing UX
+- Improved: New-tool template follows the updated copy/paste behavior
+- Improved: Beta channel switch confirmation warns about local data risks
+- Improved: Pre-release preflight checks version, changelog, and license public key config with stricter regression checks
+- Improved: Update metadata generation is more consistent across `latest.json` / `beta-latest.json`
+
+### Fixes
+- Fixed: Switching from beta back to stable could direct users to older stable releases
+- Fixed: JWT content detection and decode error copy was inaccurate for invalid input
+
 ## [v0.4.7]
 
 Added Mermaid Preview and strengthened license verification and release-time safety checks
