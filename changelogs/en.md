@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.4.9]
+
+Added optional AI enhancements and improved system monitoring, startup UX, and in-app updates
+
+### New Features
+- Added: AI Enhancement settings with local, cloud, and custom provider support; AI is disabled by default, and cloud requests require explicit user consent
+- Added: AI generation in 7 tools and AI error explanations in 12 tools; generated content is validated locally, while explanations never replace output or enter history
+- Added: Smart Detect can use AI to suggest a tool when local rules cannot classify content or confidence is low
+
+### Improvements
+- Improved: Unified AI requests, result validation, cancellation, and error handling, with more reliable provider credential and configuration storage
+- Improved: Added subtle capability indicators that distinguish AI generation from error explanations
+- Improved: System Monitor supports selectable refresh intervals and calculates network rates per interface, preventing false spikes when adapters change or counters reset
+- Improved: Standardized tool headers, dropdown controls, and brand presentation, and simplified the boot screen
+
+### Fixes
+- Fixed: In-app updates on Windows use the NSIS passive update mode, showing installation progress while skipping the misleading uninstall-selection page
+- Fixed: Home-page scrollbar gutter reservation and display are more stable, reducing layout shifts while scrolling
+
 ## [v0.4.8]
 
 Improved history presentation and Smart Detect recommendations, unified copy/paste behavior, and stronger pre-release checks
