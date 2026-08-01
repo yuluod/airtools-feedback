@@ -88,6 +88,6 @@ body:
     id: extra
     attributes:
       label: Additional Information / Screenshots
-      description: Optional: Screenshots, screen recordings, sample input, etc.
+      description: "Optional: Screenshots, screen recordings, sample input, etc."
     validations:
       required: false
