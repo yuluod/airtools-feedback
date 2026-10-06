@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v0.5.0]
+
+Added a Pixel theme, improved theme consistency and in-app updates, and strengthened settings and local data reliability
+
+### New Features
+- Added: Pixel Pro theme with pixel-font interface labels, pixel-style borders, and a dedicated preview, while body text and code retain their existing fonts
+- Added: Privacy policy and terms of service links on the About page, opening in the current interface language
+
+### Improvements
+- Improved: Consistent backgrounds, text, buttons, and tool category colors across themes, with better readability in light, dark, and Pixel themes; home, settings, and tool pages follow the selected theme
+- Improved: Theme-specific corner radii across buttons, inputs, and cards; previews use actual theme colors, and theme selection supports arrow keys, Home/End, and keyboard focus
+- Improved: In-app updates use the official Tauri updater with signature verification after download and clear exit/restart instructions before installation, retaining stable/Beta channels and automatic update settings
+- Improved: Update progress and state stay synchronized between the main and settings windows; duplicate downloads, installations, and channel changes during updates are restricted, with manual downloads available after failures
+- Improved: Software license details on the About page support whole-row clicking, keyboard access, and closing with Escape
+- Improved: Updated YAML parsing and frontend/Rust dependencies while preserving Docker Compose merge keys and YAML 1.1 timestamp behavior
+- Improved: Stronger automated regression checks for theme colors, localization, dates, and hash calculations, along with multi-platform build and download source verification
+
+### Fixes
+- Fixed: Failed saves for tool visibility, ordering, and other settings could appear successful; failures now show explicit feedback, and failed home-page hiding preserves favorites
+- Fixed: Backup imports could overwrite device-local private settings and license state; imports, database maintenance, and update installation are mutually exclusive to prevent interrupted data operations
+- Fixed: License activation, verification, and deactivation requests could remain unresponsive for too long during network failures
+- Fixed: Consecutive external links could reuse stale tool input, and rejected-link logs now contain less input information
+- Fixed: Shortcut Help did not receive focus on opening, allowed Tab to reach background controls, and did not restore focus on closing
+- Fixed: Regex flag descriptions, color tools, image Base64, loading messages, and common action labels did not follow the selected language
+- Fixed: Truncated home search hints, input background artifacts, upload-area title colors, and update task snapshots overwriting channel preferences
+
 ## [v0.4.9]
 
 Added optional AI enhancements and improved system monitoring, startup UX, and in-app updates
@@ -465,12 +491,20 @@ Improved application stability and system compatibility.
 - Fixed: Image compression "batch apply" button style and interaction abnormalities
 - Fixed: Tray menu multilingual issues and some tool layout/validation problems
 
-## [v0.1.6]
+## [v0.1.0–v0.1.16]
 
-### UI Consistency Optimization
-- Global theme alignment: replaced hardcoded blue colors with theme-aware primary colors
-- Icon improvements: updated panel types and icon display for multiple tools
-- Component refactoring: RegexTester now uses standard IOPanel component
+Early development archive
 
-### Bug Fixes
-- Fixed Tab indentation icon display issues in some tools
+### Foundations
+- Established the cross-platform AirTools desktop app, automated builds, and Chinese/English interface foundations
+- Added early tools including UUID, system information, color selection, image compression, and code beautification
+- Expanded common workflows for JSON, YAML, TOML, XML, Base64, and diff processing
+
+### Experience
+- Added history, favorites, global shortcuts, smart paste, and tool search
+- Established shared tool layouts, theming, code editing, and error handling
+- Improved large-text and image performance, with in-app update checks, downloads, and installation
+
+### Desktop & Release
+- Added native menus, system tray support, window controls, and multi-platform build workflows
+- Continued fixing Windows and macOS packaging and UI compatibility issues
